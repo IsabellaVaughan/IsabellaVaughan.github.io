@@ -1,0 +1,144 @@
+html {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: #E0E8FF;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* Sets font size to system default*/
+body {
+    font-size: 1em;
+    /*vertical-align: middle;*/
+}
+
+/* Box holding everything */
+.box {
+    background-image: url("../images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    width: max(280px, 30%);
+    box-shadow: 0px 25px 40px -10px #D6E1FF;
+}
+
+/* Container holding the elements that make up the order summary */
+.container {
+    padding-top: 30%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/* Holds the plan details inc. price, change hyperlink and music icon */
+.plan {
+    background-color: #F8F9FE;
+    border-radius: 15px;
+    margin: auto;
+    padding: 5px 0;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    img {
+        float: left;
+        margin: auto;
+        display: block;
+    }
+}
+
+.change {
+    float: right;
+    margin: auto;
+    display: block;
+    font-size: 14px;
+}
+
+div {
+    overflow: hidden;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+.text {
+    font-family: "Red Hat Display";
+    color: #7280A7;
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 500;
+}
+
+.price {
+    font-family: "Red Hat Display";
+    color: #7280A7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    color: #1F2F56;
+}
+
+h2 {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2F56;
+    margin-bottom: 0;
+}
+
+.details {
+    text-align: left;
+    padding-right: 15%;
+}
+
+button {
+    font-family: "Red Hat Display";
+    border: none;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.button1 {
+    color: white;
+    background-color: #3829E0;
+    box-shadow: 0px 25px 40px -10px rgba(52,40,222,0.4);
+    &:hover {
+        background-color: #756CF1;
+    }
+}
+
+.button2 {
+    color: #6E7695;
+    background-color: transparent;
+    &:hover {
+        color: #1F2F56;
+    }
+}
+
+a {
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    &:hover {
+        text-decoration: none;
+        color: #756CF1;
+    }
+}
+
+footer {
+    font-family: "Red Hat Display";
+}
