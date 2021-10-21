@@ -1,16 +1,17 @@
+@use 'config';
+
 html {
     background-image: url("../images/pattern-background-desktop.svg");
     background-color: #E0E8FF;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-/* Sets font size to system default*/
+/* Sets font size to system default */
 body {
     font-size: 1em;
-    /*vertical-align: middle;*/
 }
 
-/* Box holding everything */
+/* Element holding everything together */
 .box {
     background-image: url("../images/illustration-hero.svg");
     background-repeat: no-repeat;
@@ -20,7 +21,7 @@ body {
     border-radius: 20px;
     margin: auto;
     width: max(280px, 30%);
-    box-shadow: 0px 25px 40px -10px #D6E1FF;
+    box-shadow: 0px 27px 29px -6px darken(#D6E1FF,7%);
 }
 
 /* Container holding the elements that make up the order summary */
@@ -31,7 +32,7 @@ body {
     margin-top: 20%;
 }
 
-/* Holds the plan details inc. price, change hyperlink and music icon */
+/* Holds the plan details incl. price, change hyperlink and music icon */
 .plan {
     background-color: #F8F9FE;
     border-radius: 15px;
@@ -49,6 +50,7 @@ body {
     }
 }
 
+/* Layout for change hyperlink */
 .change {
     float: right;
     margin: auto;
@@ -65,7 +67,7 @@ footer {
 }
 
 .text {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     color: #7280A7;
     font-size: 16px;
     padding-left: 15%;
@@ -74,7 +76,7 @@ footer {
 }
 
 .price {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     color: #7280A7;
     font-size: 16px;
     font-weight: 500;
@@ -82,13 +84,13 @@ footer {
 }
 
 h1 {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     font-weight: 900;
     color: #1F2F56;
 }
 
 h2 {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     font-weight: 900;
     font-size: 16px;
     color: #1F2F56;
@@ -101,7 +103,7 @@ h2 {
 }
 
 button {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     border: none;
     padding: 20px;
     font-weight: 900;
@@ -131,7 +133,7 @@ button {
 }
 
 a {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
     font-weight: 500;
     &:hover {
         text-decoration: none;
@@ -140,5 +142,5 @@ a {
 }
 
 footer {
-    font-family: "Red Hat Display";
+    font-family: config.$font;
 }

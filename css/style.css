@@ -5,13 +5,12 @@ html {
   background-repeat: no-repeat;
 }
 
-/* Sets font size to system default*/
+/* Sets font size to system default */
 body {
   font-size: 1em;
-  /*vertical-align: middle;*/
 }
 
-/* Box holding everything */
+/* Element holding everything together */
 .box {
   background-image: url("../images/illustration-hero.svg");
   background-repeat: no-repeat;
@@ -21,7 +20,7 @@ body {
   border-radius: 20px;
   margin: auto;
   width: max(280px, 30%);
-  box-shadow: 0px 25px 40px -10px #D6E1FF;
+  box-shadow: 0px 27px 29px -6px #b2c7ff;
 }
 
 /* Container holding the elements that make up the order summary */
@@ -32,7 +31,7 @@ body {
   margin-top: 20%;
 }
 
-/* Holds the plan details inc. price, change hyperlink and music icon */
+/* Holds the plan details incl. price, change hyperlink and music icon */
 .plan {
   background-color: #F8F9FE;
   border-radius: 15px;
